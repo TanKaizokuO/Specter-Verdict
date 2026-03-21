@@ -2,8 +2,7 @@ In this AI-powered courtroom simulation, we have three GPT agents playing the ro
 
 The RAG pipeline works by having the agents generate a query based on the current state of the simulation, which is then used to retrieve relevant legal principles from a database. These principles are then used by the agents to generate more detailed and grounded arguments, which can be used to persuade the Judge in their favor.
 
-This simulation allows us to explore how AI agents can be used to simulate complex legal scenarios and how they can be used to generate arguments and legal principles in a more efficient and effective manner.| ------------------ | --------------------------------------------------------- | ----------- |
-| **Prosecutor GPT** | Argues the defendant is GUILTY | 0.75 |
+This simulation allows us to explore how AI agents can be used to simulate complex legal scenarios and how they can be used to generate arguments and legal principles in a more efficient and effective manner.| **Prosecutor GPT** | Argues the defendant is GUILTY | 0.75 |
 | **Defense GPT** | Argues the defendant is NOT GUILTY | 0.75 |
 | **Judge GPT** | Evaluates both sides, delivers verdict + confidence score | 0.3 |
 
@@ -119,4 +118,5 @@ Change `top_k` in `run_trial()` to retrieve more or fewer legal passages.
 - **Swap retriever**: Replace the FAISS index with any vector DB (Chroma, Pinecone, etc.)
 
 
-Last updated: 2026-03-21 23:20:13
+
+Last updated: 2026-03-21 23:20:45
