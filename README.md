@@ -1,9 +1,4 @@
-In this AI-powered courtroom simulation, we have three GPT agents playing the roles of Prosecutor, Defense Attorney, and Judge. These agents are connected through a basic RAG (Retrieval-Augmented Generation) pipeline, which allows them to retrieve relevant legal principles to ground their arguments. The RAG pipeline works by having the agents generate a query based on the current state of the simulation, which is then used to retrieve relevant legal principles from a database. These principles are then used by the agents to generate more detailed and grounded arguments, which can be used to persuade the Judge in their favor. This simulation allows us to explore how AI agents can be used to simulate complex legal scenarios and how they can be used to generate arguments and legal principles in a more efficient and effective manner.
-
-The Defense GPT agent argues that the defendant is NOT GUILTY, with a confidence score of 0.75. The Judge GPT agent evaluates both sides and delivers a verdict with a confidence score of 0.3. Each agent has a distinct system prompt that defines its persona, objectives, and a strict structured output format.
-- **Corpus**: 15 hand-crafted legal principles (extensible in `rag.py`)
-- **Embeddings**: `all-MiniLM-L6-v2` via `sentence-transformers`
-- **Index**: FAISS flat inner-product index (cosine similarity on L2-normalised vectors)
+In this AI-powered courtroom simulation, we have three GPT agents playing the roles of Prosecutor, Defense Attorney, and Judge. These agents are connected through a basic RAG (Retrieval-Augmented Generation) pipeline, which allows them to retrieve relevant legal principles to ground their arguments. The RAG pipeline works by having the agents generate a query based on the current state of the simulation, which is then used to retrieve relevant legal principles from a database. These principles are then used by the agents to generate more detailed and grounded arguments, which can be used to persuade the Judge in their favor. This simulation allows us to explore how AI agents can be used to simulate complex legal scenarios and how they can be used to generate arguments and legal principles in a more efficient and effective manner.- **Index**: FAISS flat inner-product index (cosine similarity on L2-normalised vectors)
 - **Retrieval**: Top-k passages (default `k=4`) injected into every agent prompt
 
 ---
@@ -111,4 +106,5 @@ Change `top_k` in `run_trial()` to retrieve more or fewer legal passages.
 
 
 
-Last updated: 2026-03-25 18:43:19
+
+Last updated: 2026-03-26 09:17:10
