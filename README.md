@@ -1,9 +1,4 @@
-In this AI-powered courtroom simulation, we have three GPT agents playing the roles of Prosecutor, Defense Attorney, and Judge. These agents are connected through a basic RAG (Retrieval-Augmented Generation) pipeline, which allows them to retrieve relevant legal principles to ground their arguments. The RAG pipeline works by having the agents generate a query based on the current state of the simulation, which is then used to retrieve relevant legal principles from a database. These principles are then used by the agents to generate more detailed and grounded arguments, which can be used to persuade the Judge in their favor. This simulation allows us to explore how AI agents can be used to simulate complex legal scenarios and how they can be used to generate arguments and legal principles in a more efficient and effective manner.- **Index**: FAISS flat inner-product index (cosine similarity on L2-normalised vectors)
-- **Retrieval**: Top-k passages (default `k=4`) injected into every agent prompt
-
----
-
-## 🗂️ Project Structure
+In this AI-powered courtroom simulation, we have three GPT agents playing the roles of Prosecutor, Defense Attorney, and Judge. These agents are connected through a basic RAG (Retrieval-Augmented Generation) pipeline, which allows them to retrieve relevant legal principles to ground their arguments. The RAG pipeline works by having the agents generate a query based on the current state of the simulation, which is then used to retrieve relevant legal principles from a database. These principles are then used by the agents to generate more detailed and grounded arguments, which can be used to persuade the Judge in their favor. This simulation allows us to explore how AI agents can be used to simulate complex legal scenarios and how they can be used to generate arguments and legal principles in a more efficient and effective manner.## 🗂️ Project Structure
 
 ```
 AI Courtroom/
@@ -107,4 +102,5 @@ Change `top_k` in `run_trial()` to retrieve more or fewer legal passages.
 
 
 
-Last updated: 2026-03-26 09:17:10
+
+Last updated: 2026-03-27 17:06:22
