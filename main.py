@@ -1,6 +1,9 @@
 import argparse
 import yaml
+from dotenv import load_dotenv
 from simulation.orchestrator import Simulator
+
+load_dotenv()
 
 def main():
     parser = argparse.ArgumentParser(description="AI Courtroom Pre-Trial Simulation")
