@@ -1,0 +1,11 @@
+langchain>=0.2
+langchain-anthropic
+langchain-openai
+chromadb
+sentence-transformers
+pypdf
+python-docx
+pyyaml
+rich
+pytest
+pydantic

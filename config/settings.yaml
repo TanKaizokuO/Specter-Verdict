@@ -1,0 +1,22 @@
+llm:
+  model: claude-sonnet-4-20250514   # or gpt-4o
+  temperature: 0.4
+  max_tokens: 1024
+
+rag:
+  chunk_size: 512
+  chunk_overlap: 64
+  top_k: 5
+  reranking: true
+  vector_store: chroma              # chroma | pinecone
+
+simulation:
+  max_rounds: 5
+  allow_human_injection: true
+  export_transcript: true
+  export_format: markdown           # json | markdown | pdf
+
+case:
+  case_id: "CASE-2026-001"
+  case_name: "State v. Example"
+  data_dir: ./data/case_files/
