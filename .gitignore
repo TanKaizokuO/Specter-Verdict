@@ -35,3 +35,8 @@ logs/
 
 # FAISS index (regenerated at runtime)
 *.index
+
+# Simulation specific
+data/vector_store/
+output/
+.chroma/
