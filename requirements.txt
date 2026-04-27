@@ -11,3 +11,4 @@ pytest
 pydantic
 langchain-chroma
 langchain-community
+langchain-huggingface
