@@ -13,3 +13,4 @@ langchain-chroma
 langchain-community
 langchain-huggingface
 einops
+langchain-nvidia-ai-endpoints
