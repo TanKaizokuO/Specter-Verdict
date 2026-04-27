@@ -9,3 +9,5 @@ pyyaml
 rich
 pytest
 pydantic
+langchain-chroma
+langchain-community
